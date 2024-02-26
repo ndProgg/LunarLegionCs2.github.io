@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunar Legion</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Стили для нового окошка .news2 */
+        .news2 {
+            display: block;
+            width: calc(40% - 30px);
+            margin-right: 20px;
+            float: left;
+            margin-top: 200px;
+        }
+
+        .news2-item {
+            transition: transform 0.3s ease;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%; /* Сделать ширину окошка .news2 равной 100% */
+        }
+
+        .news2-item img {
+            width: 50%; /* Сделать ширину изображения внутри .news2-item равной 100% */
+            border-radius: 8px; /* Закруглить углы изображения */
+        }
+
+        .news2-item h2 {
+            font-size: 18px;
+            color: #000000;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        /* При наведении увеличиваем размер окошка .news2 */
+        .news2-item:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="logo.png" alt="Calendar" class="calendar-icon" style="width: 85px; height: auto;">
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="news-container">
+            <p class="news-text">Return to main page</p>
+            <a href="index.html" class="news-button">RETURN</a>
+        </div>
+    </div>
+
+    <section class="news">
+        <article>
+            <div class="news-item">
+                <img src="your_image.jpg" alt="Your Image">
+                <h2>Ваш лучший праздник для вас!</h2>
+            </div>
+        </article>
+    </section>
+
+    <section class="news">
+        <article>
+            <div class="news-item">
+                <img src="your_image.jpg" alt="Your Image">
+                <h2>Ваш лучший праздник для вас!</h2>
+            </div>
+        </article>
+    </section>
+
+    <section class="news1">
+        <article>
+            <div class="news1-item">
+                <img src="your_image.jpg" alt="Your Image">
+                <h2>Ваш лучший праздник для вас!</h2>
+            </div>
+        </article>
+    </section>
+
+    <!-- Новое окошко -->
+    <section class="news2">
+        <article>
+            <div class="news2-item">
+                <img src="your_image.jpg" alt="Your Image">
+                <h2>Ваш лучший праздник для вас!</h2>
+            </div>
+        </article>
+    </section>
+
+</body>
+</html>

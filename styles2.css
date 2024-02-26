@@ -1,0 +1,123 @@
+.container {
+    width: 80%; /* Ширина контейнера */
+    margin: 0 auto; /* Центрирование контейнера */
+}
+
+.news-container {
+    margin-top: 20px; /* Верхний отступ между контейнером и окошками */
+    text-align: center; /* Выравнивание содержимого по центру */
+}
+
+.news-item {
+    width: 80%; /* Ширина окошка */
+    max-width: 400px; /* Максимальная ширина окошка */
+    padding: 20px; /* Внутренний отступ в окошке */
+    border: 1px solid #ccc; /* Рамка окошка */
+    border-radius: 5px; /* Скругление углов окошка */
+    background-color: #f9f9f9; /* Цвет фона окошка */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Тень окошка */
+    margin: 0 auto 20px; /* Отступы по верху и низу, выравнивание по центру */
+}
+
+.news-item h2 {
+    margin-top: 0; /* Убираем верхний отступ у заголовка */
+}
+
+.news-item p {
+    margin-top: 10px; /* Верхний отступ у абзаца */
+}
+
+.news-item {
+    width: 80%; /* Ширина окошка */
+    max-width: 400px; /* Максимальная ширина окошка */
+    padding: 20px; /* Внутренний отступ в окошке */
+    border: 1px solid #ccc; /* Рамка окошка */
+    border-radius: 5px; /* Скругление углов окошка */
+    background-color: #f9f9f9; /* Цвет фона окошка */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Тень окошка */
+    margin: 0 auto 20px; /* Отступы по верху и низу, выравнивание по центру */
+    transition: transform 0.3s ease; /* Плавная анимация */
+}
+
+.news-item:hover {
+    transform: scale(1.05); /* Увеличиваем размер при наведении */
+}
+
+
+/* Общие стили для страницы */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    font-size: 20px;
+}
+
+/* Шапка */
+header {
+    background-color: #09111E;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Контейнер */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Разделы */
+.section {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Заголовки */
+h1, h2 {
+    color: #333;
+    font-size: 28px;
+}
+
+.subtitle {
+    font-size: 18px;
+}
+
+/* Список */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Текст различных категорий */
+.achievement {
+    font-size: 30px;
+}
+
+.team-member,
+.sponsor,
+.location {
+    font-size: 16px;
+}
+
+/* Изображение календаря */
+.calendar-icon {
+    width: 85px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 5px;
+}
